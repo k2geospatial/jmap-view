@@ -1,7 +1,3 @@
-declare interface Window {
-  JMAP_API_OPTIONS?: JViewAppOptions
-}
-
 /**
  * The JMAP View application startup options.
  * 
@@ -58,7 +54,7 @@ declare interface JViewAppOptions extends JAPIOptions {
    * @example ```ts
    * 
    * viewApp: {
-   *  containerId: "jmap-app-view", // will create the application in the div id="jmap-app"
+   *  containerId: "jmap-view-app", // will create the application in the div id="jmap-app"
    * }
    * ```
    */
@@ -69,7 +65,7 @@ declare interface JAPIViewAppOptions {
   /**
    * The JMap ViewApp DOM div container id.
    * 
-   * Default is "jmap-app-view"
+   * Default is "jmap-view-app"
    */
   containerId: string
 }
