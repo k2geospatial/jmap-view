@@ -1,1 +1,1 @@
-# jmap-view
+# JMap ViewApp
